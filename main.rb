@@ -51,14 +51,14 @@ while !game.game_over?
   answer = gets.chomp.to_i
   if answer == question.correct_answer
     puts "Yes, correct!"
-    game.display_score
 
   else
     puts "No!"
     game.current_player.lose_life
-    game.display_score
+    
   end
-  
+
+  game.display_score
   game.new_turn
   puts "----- NEW TURN -----" unless game.game_over?
 end

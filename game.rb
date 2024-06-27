@@ -28,7 +28,7 @@ class Game
       puts "#{player2.name} wins with a score of #{player2.lives}/3"
     end
     puts "----- GAME OVER -----"
-    puts "Good bye!"
+    puts "Goodbye!"
   end
 
 
